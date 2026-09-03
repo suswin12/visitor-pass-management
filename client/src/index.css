@@ -1169,7 +1169,6 @@ td {
   padding: 28px 32px;
 }
 
-
 /* =========================
    PAGE HEADER
 ========================= */
@@ -1193,7 +1192,6 @@ td {
   font-size: 16px;
   color: #64748b;
 }
-
 
 /* =========================
    EMPLOYEE CARD
@@ -1227,7 +1225,6 @@ td {
   font-size: 14px;
 }
 
-
 /* =========================
    SEARCH
 ========================= */
@@ -1245,7 +1242,6 @@ td {
   outline: none;
   border-color: #2563eb;
 }
-
 
 /* =========================
    TABLE
@@ -1283,7 +1279,6 @@ td {
 .table-wrapper tbody tr:last-child td {
   border-bottom: none;
 }
-
 
 /* =========================
    BUTTONS
@@ -1336,7 +1331,6 @@ td {
   color: #dc2626;
 }
 
-
 /* =========================
    STATUS
 ========================= */
@@ -1360,7 +1354,6 @@ td {
   color: #dc2626;
 }
 
-
 /* =========================
    LOADING / EMPTY
 ========================= */
@@ -1371,7 +1364,6 @@ td {
   text-align: center;
   color: #64748b;
 }
-
 
 /* =========================
    MESSAGES
@@ -1392,7 +1384,6 @@ td {
   border-radius: 9px;
   margin-bottom: 18px;
 }
-
 
 /* =========================
    RESPONSIVE
@@ -1591,7 +1582,6 @@ td {
 ===================================================== */
 
 @media (max-width: 1200px) {
-
   .admin-content {
     padding: 24px 20px;
   }
@@ -1627,7 +1617,6 @@ td {
 ===================================================== */
 
 @media (max-width: 900px) {
-
   .admin-content {
     padding: 20px 14px;
   }
@@ -1661,7 +1650,7 @@ td {
     padding: 10px 5px;
     font-size: 11px;
   }
-} 
+}
 
 /* ================================
    USER ACCOUNT MANAGEMENT
@@ -2587,7 +2576,6 @@ select {
   font-family: inherit;
 }
 
-
 /* =========================
    LOGIN PAGE
 ========================= */
@@ -2670,7 +2658,6 @@ select {
   font-size: 14px;
 }
 
-
 /* =========================
    ADMIN LAYOUT
 ========================= */
@@ -2689,7 +2676,6 @@ select {
 .admin-content {
   padding: 32px 36px;
 }
-
 
 /* =========================
    SIDEBAR
@@ -2769,7 +2755,6 @@ select {
   color: white;
 }
 
-
 /* =========================
    NAVBAR
 ========================= */
@@ -2837,7 +2822,6 @@ select {
   background: #f8fafc;
 }
 
-
 /* =========================
    PAGE HEADER
 ========================= */
@@ -2873,7 +2857,6 @@ select {
 .primary-btn:hover {
   background: #1d4ed8;
 }
-
 
 /* =========================
    DASHBOARD CARDS
@@ -2915,7 +2898,6 @@ select {
   font-size: 16px;
 }
 
-
 /* =========================
    CONTENT CARD
 ========================= */
@@ -2942,7 +2924,6 @@ select {
   margin-top: 6px;
   color: #64748b;
 }
-
 
 /* =========================
    VISITOR FILTERS
@@ -2990,7 +2971,6 @@ select {
   box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.08);
 }
 
-
 /* =========================
    SEARCH BUTTON
 ========================= */
@@ -3031,7 +3011,6 @@ select {
   outline: none;
 }
 
-
 /* =========================
    CLEAR BUTTON
 ========================= */
@@ -3053,7 +3032,6 @@ select {
 .clear-btn:hover {
   background: #e2e8f0;
 }
-
 
 /* =========================
    ADMIN VISITOR TABLE
@@ -3257,8 +3235,7 @@ select {
 .visitor-table th:nth-child(7),
 .visitor-table td:nth-child(7) {
   width: 12%;
-} */
-
+}
 
 /* =========================
    EMPLOYEE TABLE
@@ -3309,7 +3286,6 @@ select {
 .employee-table td:nth-child(8) {
   width: 11%;
 }
-
 
 /* =========================
    STATUS BADGES
@@ -3365,7 +3341,6 @@ select {
   color: #dc2626;
 }
 
-
 /* =========================
    ACTION BUTTONS
 ========================= */
@@ -3407,7 +3382,6 @@ select {
   background: #bbf7d0;
 }
 
-
 /* =========================
    ALERT MESSAGES
 ========================= */
@@ -3430,7 +3404,6 @@ select {
   font-size: 14px;
 }
 
-
 /* =========================
    PLACEHOLDER
 ========================= */
@@ -3449,7 +3422,6 @@ select {
 .placeholder-page p {
   color: #64748b;
 }
-
 
 /* =========================
    RESPONSIVE
@@ -3479,7 +3451,6 @@ select {
   }
 }
 
-
 @media (max-width: 900px) {
   .sidebar {
     width: 220px;
@@ -3503,7 +3474,6 @@ select {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 
 @media (max-width: 700px) {
   .admin-layout {
@@ -4396,7 +4366,6 @@ select {
   opacity: 0.6;
   cursor: not-allowed;
 }
-
 
 /* ============================================
    RESPONSIVE
@@ -6513,7 +6482,6 @@ select {
     gap: 15px;
   }
 }
-
 
 /* =========================
    Visitor Details Modal
