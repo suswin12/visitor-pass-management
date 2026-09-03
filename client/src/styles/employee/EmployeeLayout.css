@@ -1,0 +1,268 @@
+/* =========================================
+   EMPLOYEE PORTAL - LAYOUT
+========================================= */
+
+.employee-shell {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background: #f5f7fb;
+}
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.employee-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 250px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #111827;
+  color: #ffffff;
+
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+/* =========================================
+   BRAND
+========================================= */
+
+.employee-brand {
+  height: 82px;
+  padding: 0 22px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+}
+
+.employee-brand-logo {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.employee-brand-text {
+  min-width: 0;
+}
+
+.employee-brand-text h2 {
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.employee-brand-text span {
+  display: block;
+  margin-top: 4px;
+
+  color: #94a3b8;
+
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.employee-nav-title {
+  padding: 24px 22px 10px;
+
+  color: #64748b;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.employee-nav {
+  padding: 0 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.employee-nav-link {
+  min-height: 46px;
+  padding: 0 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  border-radius: 9px;
+
+  color: #cbd5e1;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.employee-nav-link:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+}
+
+.employee-nav-link.active {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.employee-nav-icon {
+  width: 20px;
+
+  display: flex;
+  justify-content: center;
+
+  font-size: 15px;
+}
+
+/* =========================================
+   SIDEBAR FOOTER
+========================================= */
+
+.employee-sidebar-footer {
+  margin-top: auto;
+  padding: 16px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* =========================================
+   PROFILE
+========================================= */
+
+.employee-profile {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  padding: 8px 4px 14px;
+}
+
+.employee-avatar {
+  width: 38px;
+  height: 38px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #dbeafe;
+  color: #2563eb;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.employee-profile-info {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-profile-info strong {
+  color: #f8fafc;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.employee-profile-info span {
+  margin-top: 3px;
+
+  color: #94a3b8;
+
+  font-size: 11px;
+}
+
+/* =========================================
+   LOGOUT
+========================================= */
+
+.employee-logout {
+  width: 100%;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+
+  background: transparent;
+  color: #cbd5e1;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.employee-logout:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.employee-main {
+  width: calc(100% - 250px);
+  min-height: 100vh;
+
+  margin-left: 250px;
+
+  box-sizing: border-box;
+}
